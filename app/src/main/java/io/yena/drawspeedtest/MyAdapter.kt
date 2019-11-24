@@ -1,6 +1,5 @@
 package io.yena.drawspeedtest
 
-import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.support.v7.widget.RecyclerView
@@ -57,7 +56,6 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
         fun bind(color: Int, gapTime: Long) {
             itemView.tvItemSquare.apply{
                 background = getDrawable(color)
-//                background = context.getDrawable(R.drawable.background)
                 text = gapTime.toString()
             }
         }
