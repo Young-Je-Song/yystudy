@@ -19,5 +19,6 @@ class MainActivity : AppCompatActivity() {
 
         rvMain.layoutManager = lm
         rvMain.adapter = adapter
+        // 아아아아아아
     }
 }
